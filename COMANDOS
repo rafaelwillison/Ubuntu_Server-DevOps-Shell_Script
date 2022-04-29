@@ -1,0 +1,19 @@
+\\\\\ COMANDOS PARA SERVIDOR UBUNTU SERVER //////
+
+# CONSULTAR INTERFACE IP ADDRESS
+ip address show
+ip addr
+ifconfig - Nesse comando será necessario a instalação de uma pecote de ferramentas tools
+
+# CONSULTAR GATEWAY
+ip route - Portas de saída do tráfego
+
+# CONSULTAR SERVERS DNS
+systemd resolve -- status
+
+# ATUALIZAÇÃO DO SERVIDOR E LIMPEZA DE CACHE
+sudo apt update
+sudo apt upgrade
+sudo apt full-upgrade
+sudo apt dist-upgrade
+sudo apt autoclean
