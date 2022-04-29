@@ -1,3 +1,5 @@
+\\\COMANDOS EDITOR VIM ////
+
 ctrl i: entrar no modo de edição no caracter em que está
 :q: sair do arquivo atual
 :q!: saída forçada do arquivo atual
