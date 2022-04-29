@@ -10,10 +10,3 @@ ip route - Portas de saída do tráfego
 
 # CONSULTAR SERVERS DNS
 systemd resolve -- status
-
-# ATUALIZAÇÃO DO SERVIDOR E LIMPEZA DE CACHE
-sudo apt update
-sudo apt upgrade
-sudo apt full-upgrade
-sudo apt dist-upgrade
-sudo apt autoclean
